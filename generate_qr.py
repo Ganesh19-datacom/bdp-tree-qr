@@ -2,7 +2,7 @@ from pathlib import Path
 import qrcode
 
 # IMPORTANT: Replace this with your actual published site URL. Keep the trailing slash.
-BASE_URL = "https://YOUR-USERNAME.github.io/bdp-tree-qr/"
+BASE_URL = "https://ganesh19-datacom.github.io/bdp-tree-qr/"
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "qr-codes-final"
 OUT.mkdir(exist_ok=True)
