@@ -1,0 +1,18 @@
+{
+  "name": "BDP Green Explorer",
+  "short_name": "BDP Explorer",
+  "description": "Offline-ready plant information for Biodiversity Park, Bhuteghar.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f1",
+  "theme_color": "#123d32",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
