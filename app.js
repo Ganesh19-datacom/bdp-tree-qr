@@ -6,7 +6,7 @@
   const idFromUrl = value => {
     try {
       const u = new URL(value, location.href);
-      const m = (u.pathname + ' ' + u.search).match(/bdp[-_](\\d{3})/i);
+      const m = (u.pathname + ' ' + u.search).match(/bdp[-_](\d{3})/i);
       return m ? 'BDP-' + m[1] : null;
     } catch { return null; }
   };
